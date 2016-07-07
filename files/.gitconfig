@@ -1,5 +1,12 @@
 [user]
 	name = Timothy Wang
 	email = timzwang@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
+[push]
+	default = simple
 [core]
 	editor = vim
