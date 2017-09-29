@@ -34,5 +34,5 @@ else
     nnoremap <A-Left> :tabprevious<CR>
     nnoremap <A-Right> :tabnext<CR>
     nnoremap <silent> <A-S-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
-    nnoremap <silent> <A-S-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
+    nnoremap <silent> <A-S-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 endif
