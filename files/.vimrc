@@ -64,10 +64,12 @@ au InsertLeave * hi CursorLineNR ctermbg=DarkGray guibg=grey20
 
 " Text
 set softtabstop=4
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 set list
 set listchars=tab:>-,trail:·
+vnoremap > >gv
+vnoremap < <gv
 
 " Update vim on save
 au! BufWritePost .vimrc so %
